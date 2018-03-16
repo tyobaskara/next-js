@@ -13,6 +13,7 @@ const Blog = (props) => (
 export default () => (
   <Layout>
     <h1>My Blog</h1>
+    
     <div className="markdown">
      <Markdown source={`
 This is our blog post.
@@ -24,6 +25,7 @@ And we can have a title as well.
 And here's the content.
      `}/>
    </div>
+
     <ul>
       <Blog title="Hello Next.js"/>
       <Blog title="Learn Next.js is awesome"/>
