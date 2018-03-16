@@ -15,7 +15,7 @@ export default class Index extends React.Component {
             <Layout>
                 <h1>Hello Next.js</h1>
 
-                <img src="../static/Tio.jpg" alt="tyobaskara"/>
+                <img src="../static/images/Tio.jpg" alt="tyobaskara"/>
                 
                 <div>
                     <Link href="/blogs">
