@@ -13,11 +13,15 @@ export default class Index extends React.Component {
     render() {
         return (
             <Layout>
-                <p>Hello Next.js</p>
+                <h1>Hello Next.js</h1>
+
+                <img src="../static/Tio.jpg" alt="tyobaskara"/>
                 
-                <Link href="/blogs">
-                    <button>Go to Blogs Page</button>
-                </Link>
+                <div>
+                    <Link href="/blogs">
+                        <button>Go to Blogs Page</button>
+                    </Link>
+                </div>
             </Layout>
         )
     }

@@ -28,6 +28,13 @@
             {
             "extensions": ["css$", "scss$"]
             }
+        ],
+        [
+            "transform-assets-import-to-string",
+            {
+                "baseDir": "static",
+                "baseUri": "/"
+            }
         ]
     ],
     "ignore": []
