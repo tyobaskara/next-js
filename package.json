@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node server.js -p $PORT",
     "ndev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "nstart": "next start",
+    "heroku-start": "node server.js -p $PORT",
+    "start": "NODE_ENV=production node server.js -p $PORT"
   },
   "keywords": [],
   "author": "",
