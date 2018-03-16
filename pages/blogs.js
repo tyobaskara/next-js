@@ -33,13 +33,15 @@ And here's the content.
     </ul>
     
     <style jsx global>{`
+      $tomato: tomato;
+    
       .markdown {
         font-family: 'Arial';
       }
 
       .markdown a {
         text-decoration: none;
-        color: blue;
+        color: $tomato;
       }
 
       .markdown a:hover {
