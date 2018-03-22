@@ -16,8 +16,8 @@ const Header = () => (
         <Link href="/magz">
             <a style={fontSize}>Magz</a>
         </Link>
-        <Link href="/async">
-            <a style={fontSize}>Async</a>
+        <Link href="/axios">
+            <a style={fontSize}>Axios</a>
         </Link>
     </div>
 )
