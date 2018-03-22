@@ -11,13 +11,9 @@ export const Loading = () => (
 )
 
 class Axios extends React.Component {
-    constructor() {
-        super();
-    
-        this.state = {
-          posts: []
-        };
-      }
+    state = {
+        posts: []
+    }
 
     componentDidMount() {
         const _this = this;
